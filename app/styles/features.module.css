@@ -1,0 +1,6 @@
+.arrow {
+  transition: transform 0.3s ease;
+}
+.arrowBtn:hover .arrow {
+  transform: translateX(5px);
+}

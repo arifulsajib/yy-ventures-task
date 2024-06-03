@@ -1,6 +1,7 @@
 import Banner from "./components/Banner";
 import Features from "./components/Features";
 import Navigation from "./components/Navigation";
+import Newsletter from "./components/Newsletter";
 import Teachers from "./components/Teachers";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
       <Banner />
       <Features />
       <Teachers />
+      <Newsletter />
     </main>
   );
 }

@@ -54,7 +54,7 @@ const Navigation = () => {
         {/* Mobile Menu */}
         <div className={`fixed z-40 w-full  bg-light-color overflow-hidden flex flex-col lg:hidden gap-12  origin-top duration-700 ${!toggleMenu ? "h-0" : "h-full"}`}>
           <div className="px-8">
-            <div className="flex flex-col gap-8 font-bold tracking-wider">
+            <div className="flex flex-col gap-8 font-bold tracking-wider text-lightgrey-color text-sm">
               {menuItems.map((item) => (
                 <Link href="#" key={item}>
                   {item}

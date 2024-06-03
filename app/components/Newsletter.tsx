@@ -28,12 +28,12 @@ const Newsletter = () => {
       <form className="flex justify-center items-center my-10" onSubmit={handleSubmit}>
         <div>
           <input type="text" placeholder="Your Email" value={email} onChange={(e) => setEmail(e.target.value)} className="py-2 px-5 lg:pe-24 border" />
-          {error && <p className="text-red-500 text-sm mt-2">{error}</p>}
         </div>
         <button type="submit" className="bg-lightgreen-color text-sm font-bold text-white py-2 px-5 ms-2">
           Subscribe
         </button>
       </form>
+      {error && <p className="text-red-500 text-sm mt-2">{error}</p>}
     </section>
   );
 };
